@@ -1,0 +1,5 @@
+<svg viewBox="0 0 140 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="La Vojo">
+  <circle cx="70" cy="25" r="15" fill="none" stroke="currentColor" stroke-width="6"/>
+  <line x1="63" y1="46" x2="16" y2="180" stroke="currentColor" stroke-width="7" stroke-linecap="round"/>
+  <line x1="77" y1="46" x2="124" y2="180" stroke="currentColor" stroke-width="7" stroke-linecap="round"/>
+</svg>

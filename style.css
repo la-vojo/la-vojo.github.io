@@ -1,0 +1,160 @@
+/* La Vojo — feuille de style partagée
+   Sobriété stricte : aucun dégradé, aucune photo, aucune icône,
+   aucune animation, aucune police externe, aucun JavaScript. */
+
+:root {
+  --bg: #FAF9F7;
+  --fg: #2A2A28;
+  --muted: #8A8880;
+  --rule: rgba(42, 42, 40, 0.14);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1A1A19;
+    --fg: #E8E6E1;
+    --muted: #77756E;
+    --rule: rgba(232, 230, 225, 0.16);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  max-width: 34em;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 4rem;
+}
+
+/* Symbole en tête */
+.simbolo {
+  display: block;
+  height: 90px;
+  width: auto;
+  margin: 0 auto 3.5rem;
+  color: var(--fg);
+}
+
+/* Titres — la taille et l'espacement font le travail, pas le gras */
+h1 {
+  font-weight: normal;
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin: 0 0 4rem;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1.25rem;
+  letter-spacing: 0.01em;
+  margin: 0 0 1.25rem;
+  color: var(--fg);
+}
+
+/* Sections — marges verticales larges */
+section {
+  margin: 4.5rem 0;
+}
+
+section + section {
+  padding-top: 4.5rem;
+  border-top: 0.5px solid var(--rule);
+}
+
+p {
+  margin: 0 0 1.25rem;
+}
+
+/* Listes de préceptes / fêtes — sobres, sans puces lourdes */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 0 0.75rem;
+}
+
+.list-plain li {
+  padding-left: 0;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+a {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 0.5px;
+}
+
+a:hover {
+  text-decoration-thickness: 1px;
+}
+
+/* Sélecteur de langue — discret, en bas */
+.lang {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 0.5px solid var(--rule);
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.lang a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.lang a:hover {
+  color: var(--fg);
+}
+
+.lang .current {
+  color: var(--muted);
+  opacity: 0.55;
+}
+
+.lang .sep {
+  margin: 0 0.5em;
+  color: var(--muted);
+  opacity: 0.55;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main {
+    padding: 3rem 1.15rem 2.5rem;
+  }
+  body {
+    font-size: 1.06rem;
+  }
+  h1 {
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+  }
+}
