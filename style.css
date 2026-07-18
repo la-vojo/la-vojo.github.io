@@ -145,6 +145,125 @@ a:hover {
   opacity: 0.55;
 }
 
+/* Ligne de nature (pages d'accueil) */
+.nature {
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--fg);
+  text-align: center;
+  max-width: 30em;
+  margin: 0 auto 3rem;
+}
+
+/* Navigation inter-pages */
+.nav {
+  text-align: center;
+  font-size: 0.95rem;
+  margin: 0 0 4rem;
+  color: var(--muted);
+}
+
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: var(--fg);
+}
+
+.nav .current {
+  color: var(--muted);
+  opacity: 0.55;
+}
+
+.nav .sep {
+  margin: 0 0.5em;
+  opacity: 0.4;
+}
+
+/* Frise chronologique (Tradicio) */
+.timeline {
+  margin: 2rem 0;
+}
+
+.entry {
+  padding: 1.75rem 0;
+  border-top: 0.5px solid var(--rule);
+}
+
+.entry:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.entry .period {
+  display: block;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.entry p {
+  margin: 0;
+}
+
+/* Tableau (Metodo — manuscrits) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.75rem 0;
+  font-size: 0.98rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.6rem 0.9rem 0.6rem 0;
+  border-bottom: 0.5px solid var(--rule);
+  vertical-align: top;
+}
+
+th {
+  font-weight: normal;
+  color: var(--muted);
+}
+
+/* Exemples de traduction (Metodo) */
+.gloss {
+  padding: 1.5rem 0;
+  border-top: 0.5px solid var(--rule);
+}
+
+.gloss:first-of-type {
+  border-top: none;
+  padding-top: 0.5rem;
+}
+
+.gloss .term {
+  font-size: 1.1rem;
+  margin: 0 0 0.4rem;
+}
+
+.gloss .translit {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.gloss .pair {
+  margin: 0 0 0.6rem;
+}
+
+.gloss .was {
+  color: var(--muted);
+}
+
+.gloss .note {
+  margin: 0;
+  font-size: 0.98rem;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   main {
@@ -156,5 +275,11 @@ a:hover {
   h1 {
     font-size: 1.7rem;
     margin-bottom: 3rem;
+  }
+  .nav {
+    margin-bottom: 3rem;
+  }
+  table {
+    font-size: 0.92rem;
   }
 }
