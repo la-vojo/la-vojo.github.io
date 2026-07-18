@@ -1,6 +1,6 @@
 # La Vojo
 
-*Retejo — trilingva / Site — trilingue*
+*Retejo - trilingva / Site - trilingue*
 
 ## Esperanto
 
@@ -18,7 +18,7 @@ simbolo.svg  → la simbolo (memstara)
 
 Neniu ekstera fonto : nek fremda tiparo, nek CDN, nek JavaScript.
 
-La tradukita **korpuso** (Tomaso, Johano, Maria k.a.) ankoraŭ ne estas publikigita — la Esperantaj tradukoj estas laboraj malnetoj, ne ankoraŭ filologie validigitaj. Ili estos aldonitaj poste.
+La tradukita **korpuso** (Tomaso, Johano, Maria k.a.) ankoraŭ ne estas publikigita - la Esperantaj tradukoj estas laboraj malnetoj, ne ankoraŭ filologie validigitaj. Ili estos aldonitaj poste.
 
 ## Français
 
@@ -36,4 +36,4 @@ simbolo.svg  → le symbole (autonome)
 
 Aucune ressource externe : ni police externe, ni CDN, ni JavaScript.
 
-Le **corpus** traduit (Thomas, Jean, Marie et autres) n'est pas encore publié — les traductions esperanto sont des drafts de travail, non encore validés philologiquement. Ils seront ajoutés ultérieurement.
+Le **corpus** traduit (Thomas, Jean, Marie et autres) n'est pas encore publié - les traductions esperanto sont des drafts de travail, non encore validés philologiquement. Ils seront ajoutés ultérieurement.
